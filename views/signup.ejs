@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <title>Puma signup</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  </head>
+
+
+
+  <body>
+
+    <!-- navbar -->
+    <section id = navbar>
+      <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/" style="color:#fff"> <img src="images/puma.png" width="50px" height="50px" alt="logo-img"> Puma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+          </div>
+       </nav>
+      </section>
+
+<main class="form-signin w-100 m-auto ">
+  <form action="/signup" method="post">
+    <img class="mb-4" src="images/puma.png" alt="" width="72" height="57" border-radius="100%">
+    <h1 class="h3 mb-3 fw-normal">Sign in</h1>
+
+    <div class="form-floating">
+      <input type="text" class="form-control top" name="Fname" placeholder="First Name">
+      <label for="floatingInput">First Name</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" class="form-control middle" name="Lname" placeholder="Last Name">
+        <label for="floatingInput">Last Name</label>
+      </div>
+    <div class="form-floating">
+      <input type="email" class="form-control bottom" name="Email" placeholder="Email">
+      <label for="floatingPassword">Email</label>
+    </div>
+
+    <button class="btn btn-primary w-100 py-2" type="submit">Sign me Up!</button>
+    <p class="mt-5 mb-3 text-body-secondary">&copy;puma clone 2023</p>
+  </form>
+</main>
+
+
+
+
+
+
+<%- include("partials/footer") -%>

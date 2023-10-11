@@ -1,0 +1,390 @@
+
+
+body{
+    font-family:'Ubuntu';
+}
+
+/* navbar */
+.puma-img
+{
+width: 50px;
+height: 50px;
+}
+.navbar{
+    background-color: black;
+    color: #fff;
+    height:75px;
+    font-family:'Ubuntu';
+    position: relative;
+}
+.container-fluid#navbar{
+    color: #fff;
+}
+.btn{
+    margin:0px 10px 0 10px;
+}
+.login{
+   margin-left: .8rem;
+    size: 1.5;
+}
+.login:hover{
+    opacity:0.4;
+    
+}
+.nav-link:hover{
+  opacity: 0.4;
+  color: #fff;
+}
+.nav-link{
+  color:white;
+}
+
+/* title */
+#title{
+    background-color: rgba(230, 185, 130, 0.801);
+    font-family:'Montserrat';
+}
+.title-image{
+    width: 350px;
+    position: none;
+    margin:80px 0 120px 120px ;
+}
+.left-handing{
+    text-align: center;
+    font-size: 6.5rem;
+    font: Bold;
+}
+.flat{
+    margin-top: 130px;
+    font-size:2.5rem;
+}
+.title-handing{
+    text-align: center;
+    padding: 250px 0 0 60px;
+    line-height: 1.1; 
+}
+.title-btn{
+  margin: 4px;
+  background-color: black;
+  color: #fff;
+}
+
+
+/* shoes collection */
+
+.shoe-deal{
+    margin-top: 50px;
+    text-align: center;
+    font-family:'Monsterrat-Bold';
+    background-color: #fff;
+}
+.carousel-item{
+    height: 550px;
+    width: 550px;
+    text-align: center;
+    font: black;
+    font-family:'Monsterrat-Bold';
+    background-color: transparent;
+}
+
+
+
+/* outlet */
+.outlet{
+    background-color: rgba(30, 30, 175, 0.838); 
+    color: #fff;
+    justify-content: center;
+    margin: 10px 0 20px 0;
+}
+
+h2,h4{
+    margin: 50px 0 0 10px;
+    font-family: 'Ubuntu';
+}
+.outline-btn{
+  background-color: #fff;
+  color: black;
+  margin-top:20px;
+  font-family: "Monsterrat";
+}
+.outlet-content{
+    margin: 180px 0 100px 100px;
+    text-align: center;
+    float: left;
+}
+.outlet-shoe1{
+    width: 350px;
+    border: 15px solid #fff;
+    margin: 208px 0 0 270px;
+}
+.sale-img{
+    width: 330px;
+    position: absolute;
+    padding-right: 100px;
+    margin:150px 200px 0 470px;
+}
+.outlet h3{
+    position: relative;
+    margin :40px 0  20px 1330px;
+    font-size: 3rem;
+    font-family: 'Ubuntu';
+}
+.outlet-shoe2{
+    width: 380px;
+    border: 15px solid #fff;
+}
+
+
+
+
+/* outline-2 */
+.outline-2{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: "Ubuntu";
+}
+.outline2-img{
+    float: left;
+    width:60%;
+}
+.outline-2-content{
+    padding: 250px 0 210px 0;
+}
+
+
+/* outline-3 */
+.outline3-img{
+    padding: 20px 0 20px 0;
+    float: left;
+    width: 50%;
+}
+.out3-content{
+  
+   position: absolute;
+}
+.mayze{
+    color: #fff;
+    margin: 220px 675px;
+    font-size:3rem;
+    font-family:"Monsterrat";
+}
+.outline-3 h4{
+    color: #fff;
+    margin: 280px 675px;
+    font-size:2rem;
+    font-family:"Monsterrat";
+    text-align: center;
+}
+
+
+/* outlet-4 */
+.image-container {
+    position: relative; 
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+  }
+  .outlet4-img{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 20px;
+  }
+  .text-overlay {
+    position: absolute;
+    text-align: center;
+    top: 50%; 
+    left: 75%; 
+    font-size: 24px; 
+    color: white; 
+    padding: 10px; 
+  }
+
+
+  /* free-space */
+  .free-space{
+    margin: 8%;
+  }
+
+
+  /* footer */
+  footer {
+    padding: 45px;
+    background-color: black;
+    color: grey;
+    font-size: 0.9rem;
+    font-family:"Ubuntu";
+    margin-bottom:-10px;
+  }
+
+  footer p{
+    font-family: "Monsterrat";
+    line-height: 0.5;
+  }
+  footer h5{
+    padding-bottom: 2%;
+    color: #fff;;
+  }
+  .line{
+    background-color: #fff;
+  }
+
+  /* logo section */
+  .social-media{
+    font-size: 1.7rem;
+    padding-top: 1%;  
+    color: #fff;
+    float: left;
+}
+.logo{
+    padding:10px;
+    color: #fff;
+}
+.copy-right{
+    line-height: .5; 
+    padding: 15px;
+}
+  
+  
+ 
+
+/* shopmen button */
+.container-fluid.menshoes-img{
+    margin-bottom: 20px;
+}
+.sale{
+    background-color: rgba(255, 0, 0, 0.756);
+    font-size:1rem;
+    padding:6% 0 1% 0;
+    text-align: center;
+    color: #fff;
+}
+.men-collection{
+    margin: 1%;
+    font-family: "Ubuntu";
+}
+.men-shoe-img{
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+
+}
+.menshoes-img p{
+    margin-left: 12%;
+    font-family: "Monsterrat";
+}
+.price{
+    text-align: right;
+    font-weight:bold;
+    color: rgba(202, 19, 19, 0.842);
+   
+}
+
+
+/* horizontal line */
+.horiline{
+    margin: 40px;
+    visibility: hidden;
+}
+
+
+
+
+/* signup page */
+
+
+body {
+    height: 100%;
+    text-align: center;
+    
+
+  }
+  
+  .form-signin {
+    max-width: 430px;
+    padding: 1rem;
+    padding: 10% 0 10% 0;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .top{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .middle{
+    margin-bottom: -1px;
+    border-radius: 0;
+  }
+  
+  .bottom{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.467);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+.mb-4{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.color{
+  background-color: rgb(80, 102, 240);
+}
+
+
+/* cart section */
+.cart-logo{
+  margin: 150px 0 30px 0;
+  text-align: center;
+  font-size: 10rem;
+  color: rgb(170, 170, 170);
+  background-color: white;
+}
+.cart{
+  text-align: center;
+  margin-bottom: 150px;
+}
